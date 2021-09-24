@@ -1,0 +1,51 @@
+/* Slider */
+
+.carousel-inner, .carousel-item {
+    height: 100vh;
+}
+  
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+right: auto;
+bottom: auto;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+.card-image img, .card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+}
+
+
+.card-body {
+    text-align: center;
+}
+
+.info {
+    background-color: #eff2f5;
+    i {
+        font-size: 16px;
+    }
+    @media(max-width: 768px){
+        .media-box {
+            order: 1;
+        }
+        .contact-box {
+            order: 2;
+        }
+        .newsletter-box {
+            order: 3;
+        }
+    }
+}
+
+footer {
+    background-color: #e6e7e7;
+}
